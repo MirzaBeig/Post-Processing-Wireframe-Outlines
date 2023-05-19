@@ -1,5 +1,5 @@
 # Post-Processing Wireframe/Outlines
-A wireframe and outline (2-in-1) effect for Unity uses depth-based edge detection to render thick, quality post-processing wireframes and outlines. You can control the line thickness, edge detection threshold, colour, and blend state. Unlike the typical edge-detection techniques of using a sobel filter/kernel, we compare depth against the local area average- calculated using what is essentially box blur.
+A wireframe and outline (2-in-1) effect for Unity that uses depth-based edge detection to render thick, quality post-processing wireframes and outlines. You can control the line thickness, edge detection threshold, colour, and blend state. Unlike the typical edge-detection techniques of using a sobel filter/kernel, we compare depth against the local area average- calculated using what is essentially box blur.
 
 https://github.com/MirzaBeig/Post-Processing-Wireframe-Outlines/assets/37354140/68f099ce-cb16-49e9-93a9-91c42de46f5a
 
