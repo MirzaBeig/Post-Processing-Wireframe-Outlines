@@ -1,9 +1,9 @@
 # Post-Processing Wireframe/Outlines
 A wireframe and outline (2-in-1) effect for Unity uses depth-based edge detection to render thick, quality post-processing wireframes and outlines. You can control the line thickness, edge detection threshold, colour, and blend state. Unlike the typical edge-detection techniques of using a sobel filter/kernel, we compare depth against the local area average- calculated using what is essentially box blur.
 
-https://github.com/MirzaBeig/Depth-Outlines/assets/37354140/630368f8-dc52-45c3-a0cf-1f6319df815b
+https://github.com/MirzaBeig/Post-Processing-Wireframe-Outlines/assets/37354140/68f099ce-cb16-49e9-93a9-91c42de46f5a
 
-https://github.com/MirzaBeig/Depth-Outlines/assets/37354140/7e8aa18a-d258-4aab-921b-ab7ee941debc
+https://github.com/MirzaBeig/Post-Processing-Wireframe-Outlines/assets/37354140/b02f1e77-c708-40dc-8aa7-866f823805d0
 
 ## Compatibility
 
@@ -23,12 +23,12 @@ Easy as,
 
 ...That's it.
 
-![image](https://github.com/MirzaBeig/Depth-Outlines/assets/37354140/38e8040a-b09c-4b36-89cc-e14715915fab)
+![238803119-38e8040a-b09c-4b36-89cc-e14715915fab](https://github.com/MirzaBeig/Post-Processing-Wireframe-Outlines/assets/37354140/70eaef50-88ed-4e1f-aa10-85a0ffda505c)
 
 You can then tweak the material, for example: to get this automatic per-object line colour look.
 
-![image](https://github.com/MirzaBeig/Depth-Outlines/assets/37354140/4b456446-d5a9-41d7-a873-281fd68ccab8)
+![238801956-4b456446-d5a9-41d7-a873-281fd68ccab8](https://github.com/MirzaBeig/Post-Processing-Wireframe-Outlines/assets/37354140/653b4641-df3c-41bd-bd14-0fe4869f6c9b)
 
 Or to render thick, painterly strokes- best used in combination with some kind of stylized surface shader.
 
-![image](https://github.com/MirzaBeig/Depth-Outlines/assets/37354140/1fc114d9-25f9-4e44-8f28-5f21ab226959)
+![image](https://github.com/MirzaBeig/Post-Processing-Wireframe-Outlines/assets/37354140/7c710fda-fda4-4294-afe6-c9e02eb11192)
