@@ -12,7 +12,7 @@ https://github.com/MirzaBeig/Post-Processing-Wireframe-Outlines/assets/37354140/
 
 ## Installation
 
-You'll find everything under Mirza Beig/Depth-Outlines/...
+You'll find everything under Mirza Beig/Post-Processing-Wireframe-Outlines/...
 
 ## Usage
 
