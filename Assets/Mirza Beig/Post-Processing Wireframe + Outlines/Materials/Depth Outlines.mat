@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Depth Outlines
+  m_Shader: {fileID: 4800000, guid: baeeecaf0117d0f45b276f9abac72d4b, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ALTERNATIVEBLUR_ON
+  - _BLURDEPTHMASK_ON
+  - _FASTCIRCLEBLUR_ON
+  - _GAUSSIANCIRCLEBLUR_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CameraDepthTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RenderTexture:
+        m_Texture: {fileID: 8400000, guid: db6e44a4e04dfa344bef4601b77916a2, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Test:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 8400000, guid: db6e44a4e04dfa344bef4601b77916a2, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlternativeBlur: 1
+    - _AverageDepthOffset: 0.000001
+    - _Blend: 1
+    - _Blend1: 0
+    - _Blend2: 0
+    - _Blend3: 0.823
+    - _BlurAmount: 32
+    - _BlurAmountX: 1
+    - _BlurAmountY: 1
+    - _BlurCircleMask: 1
+    - _BlurDepthMask: 1
+    - _BlurDirections: 30
+    - _BlurMultiplier: 2
+    - _BlurQuality: 8
+    - _BlurScaleX: 1
+    - _BlurScaleY: 1
+    - _DebugView: 0
+    - _DepthBlurAmount: 2
+    - _DepthBlurAmountX: 1
+    - _DepthBlurAmountY: 1
+    - _DepthBlurDirections: 60
+    - _DepthBlurMultiplier: 0.168
+    - _DepthBlurNoise: 0.01
+    - _DepthBlurNoiseAnimationScale: 3
+    - _DepthBlurNoiseFPS: 3
+    - _DepthBlurNoiseScale: 32
+    - _DepthBlurNoiseScaleX: 16
+    - _DepthBlurNoiseScaleY: 32
+    - _DepthBlurQuality: 1
+    - _DepthBlurScaleX: 1
+    - _DepthBlurScaleY: 1
+    - _DepthBlurThreshold: 0
+    - _DepthBoost: 100
+    - _DepthCycles: 1
+    - _DepthMask: 0
+    - _DepthMaskBlur: 0
+    - _DepthMaskRemapMax: 1
+    - _DepthMaskRemapMin: 1
+    - _DepthMaskRemapPreMultiplier: 100
+    - _DepthMaxThreshold: 0
+    - _DepthOffset: 0
+    - _DepthOffsetDifference: 0.0134
+    - _DepthPower: 0
+    - _DepthRemapMax: 1
+    - _DepthRemapMin: 1
+    - _DepthRemapPreMultiplier: 100
+    - _DoFRemapMax: 0.5
+    - _DoFRemapMin: 0.2
+    - _EdgeThreshold: 0.000018
+    - _FastCircleBlur: 1
+    - _Float0: 10
+    - _Float1: 1
+    - _GaussianCircleBlur: 1
+    - _Keyword0: 0
+    - _LineWidth: 3.5
+    - _MaskBlurbyDepth: 0
+    - _MaskDepthofField: 0
+    - _MaskHardness: 0
+    - _MaskPower: 5
+    - _MaskScale: 1
+    - _MipBias: 0
+    - _NearLimit: 6.06
+    - _NoiseScale: 4
+    - _RemapMax: 0.05
+    - _RemapMin: 0.045
+    - _RemapPreMultiplier: 100
+    - _SpeedLinesAnimation: 3
+    - _SpeedLinesPower: 1
+    - _SpeedLinesRadialScale: 0.1
+    - _SpeedLinesRemap: 0.8
+    - _SpeedLinesTiling: 200
+    - _Threshold: 0.1
+    - _TimeScale: 1
+    - _a: 0.4275
+    - _b: 0.4274
+    m_Colors:
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _Colour: {r: 0, g: 0, b: 0, a: 1}
+    - _DepthBlurNoiseAnimationX: {r: 0, g: 0.01, b: 0.1, a: 0}
+    - _DepthBlurNoiseAnimationY: {r: 0, g: -0.02, b: 0.05, a: 0}
+    - _DepthBlurNoiseTilingX: {r: 1, g: 0.5625, b: 0, a: 0}
+    - _DepthBlurNoiseTilingY: {r: 1, g: 0.5625, b: 0, a: 0}
+    - _NoiseAnimationX: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseAnimationY: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineColour: {r: 1, g: 1, b: 1, a: 1}
+    - _Vector0: {r: 0, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
