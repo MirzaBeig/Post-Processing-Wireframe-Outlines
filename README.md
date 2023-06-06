@@ -18,7 +18,7 @@ A wireframe and outline (2-in-1) effect for Unity that uses depth-based edge det
 [![GitHub repo size](https://img.shields.io/github/repo-size/MirzaBeig/Post-Processing-Wireframe-Outlines?style=for-the-badge)](../../)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MirzaBeig/Post-Processing-Wireframe-Outlines?style=for-the-badge)](../../)
 
-## Previews
+## Preview
 
 https://github.com/MirzaBeig/Post-Processing-Wireframe-Outlines/assets/37354140/68f099ce-cb16-49e9-93a9-91c42de46f5a
 
